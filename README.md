@@ -52,7 +52,8 @@
 - check it
 - git config --global --list
 - create the shortcut command for git fresh
-- git config --global alias.fresh "!git fetch origin && git reset --hard origin/main && git clean -fd"
+- git config --global alias.fresh '!f(){ git fetch origin && git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) && git clean -fd; }; f'
+- ts different from windows btw
 - check it with git config --global --list
 - always do the cycle of:
 - git fresh
