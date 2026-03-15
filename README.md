@@ -22,41 +22,41 @@
 
 ### Windows
 
-download git https://git-scm.com/download/win
-go to cmd and type git --version to see if it worked
-you should see git version 2.xx
-on each computer set up git
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-check it
-git config --global --list
-create the shortcut command for git fresh
-git config --global alias.fresh "!git fetch origin && git reset --hard origin/main && git clean -fd"
-check it with git config --global --list
-always do the cycle of:
-git fresh
-git add
-git push
-clone the repo using https since we'ain got ssh keys set up
-git clone https://github.com/natozuski/multimc-1.9.git
+- download git https://git-scm.com/download/win
+- go to cmd and type git --version to see if it worked
+- you should see git version 2.xx
+- on each computer set up git
+- git config --global user.name "Your Name"
+- git config --global user.email "you@example.com"
+- check it
+- git config --global --list
+- create the shortcut command for git fresh
+- git config --global alias.fresh "!git fetch origin && git reset --hard origin/main && git clean -fd"
+- check it with git config --global --list
+- always do the cycle of:
+- git fresh
+- git add
+- git push
+- clone the repo using https since we'ain got ssh keys set up
+- git clone https://github.com/natozuski/multimc-1.9.git
 
 ### Mac
 
-open terminal from finger (command + space)
-just type git and download it if its not there
-type git --version to check
-you should see git version 2.xx
-on each computer set up git
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-check it
-git config --global --list
-create the shortcut command for git fresh
-git config --global alias.fresh "!git fetch origin && git reset --hard origin/main && git clean -fd"
-check it with git config --global --list
-always do the cycle of:
-git fresh
-git add
-git push
-clone the repo using https since we'ain got ssh keys set up
-git clone https://github.com/natozuski/multimc-1.9.git
+- open terminal from finger (command + space)
+- just type git and download it if its not there
+- type git --version to check
+- you should see git version 2.xx
+- on each computer set up git
+- git config --global user.name "Your Name"
+- git config --global user.email "you@example.com"
+- check it
+- git config --global --list
+- create the shortcut command for git fresh
+- git config --global alias.fresh "!git fetch origin && git reset --hard origin/main && git clean -fd"
+- check it with git config --global --list
+- always do the cycle of:
+- git fresh
+- git add
+- git push
+- clone the repo using https since we'ain got ssh keys set up
+- git clone https://github.com/natozuski/multimc-1.9.git
